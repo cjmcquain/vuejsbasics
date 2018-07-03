@@ -4,5 +4,9 @@ new Vue({
     title: "Becoming a Vue ninja",
     wage: 10
   },
-  methods: {}
+  methods: {
+    changeWage(amount) {
+      this.wage += amount;
+    }
+  }
 });
